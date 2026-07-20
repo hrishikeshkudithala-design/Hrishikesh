@@ -38,6 +38,21 @@ public class TestMethodDemo8 {
 	System.out.println("Enter Radius : ");
 	double r = sc.nextDouble();
 	
+	double aCir = findAreaOfCircle(r);
+	System.out.println("Area of Circle is : "+aCir);
+	
+	System.out.println("Enter Base : ");
+	double base = sc.nextDouble();
+	
+	System.out.println("Enter Height : ");
+	double height = sc.nextDouble();
+	double aTri = findAreaOfTriangle((float)base,(float)height);
+	System.out.println("Area of Triangle is : "+aTri);
+	
+	System.out.println("Enter Side : ");
+	double side= sc.nextDouble();
+	int arsq = findAreaOfSquare(side);
+	System.out.println("Area of Square is : "+arsq);
 	}
 
 }
