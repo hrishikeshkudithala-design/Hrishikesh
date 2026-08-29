@@ -2,7 +2,7 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo8 {
+public class Matrimony {
 
 	public static void main(String[] args) {
 		System.out.println("Welcome to Vcube Matrimonial !!");

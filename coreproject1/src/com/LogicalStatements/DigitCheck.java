@@ -2,7 +2,7 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo1 {
+public class DigitCheck {
 
 	public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);

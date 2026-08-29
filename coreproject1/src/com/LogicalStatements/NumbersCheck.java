@@ -2,16 +2,18 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo3 {
+public class NumbersCheck{
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a number : ");
 		int num = sc.nextInt();
-		if (num % 2 == 0) {
-			System.out.println("Even number");
+		if (num > 0) {
+			System.out.println("Positive number");
+		} else if (num < 0) {
+			System.out.println("Negative number");
 		} else {
-			System.out.println("Odd number");
+			System.out.println("Zero");
 		}
 		sc.close();
 	}

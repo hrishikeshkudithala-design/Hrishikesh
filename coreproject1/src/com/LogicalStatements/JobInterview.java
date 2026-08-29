@@ -2,7 +2,7 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo11 {
+public class JobInterview {
 
 	public static void main(String[] args) {
     System.out.println("****Job Interview****");

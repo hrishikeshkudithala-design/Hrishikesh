@@ -2,7 +2,7 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo9 {
+public class MultiplicationTable {
 
 	public static void main(String[] args) {
 		System.out.println("main method started");

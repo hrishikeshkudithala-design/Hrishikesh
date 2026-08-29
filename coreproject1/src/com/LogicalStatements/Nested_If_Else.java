@@ -2,7 +2,7 @@ package com.LogicalStatements;
 
 import java.util.Scanner;
 
-public class TestLSDemo10 {
+public class Nested_If_Else {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
