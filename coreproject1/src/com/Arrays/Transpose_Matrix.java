@@ -1,0 +1,33 @@
+package com.Arrays;
+
+import java.util.Scanner;
+
+public class Transpose_Matrix {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int[][] numbers = new int[3][3];
+		System.out.println("Enter array elements : ");
+		for (int i = 0; i < numbers.length; i++) {
+			for (int j = 0; j < numbers.length; j++) {
+				numbers[i][j] = sc.nextInt();
+			}
+		}
+		System.out.println("Original Matrix : ");
+		for (int i = 0; i < numbers.length; i++) {
+			for (int j = 0; j < numbers.length; j++) {
+				System.out.print(numbers[i][j]+" ");
+				
+			}
+			System.out.println();
+		}
+		System.out.println("Transpose Matrix : ");
+		for(int i = 0; i < numbers.length; i++) {
+	    	  for(int j = 0; j < numbers.length; j++) {
+	    		  System.out.print(numbers[j][i]+" ");
+	    	  }
+	    	  System.out.println();
+	    }
+		sc.close();
+	}
+}
